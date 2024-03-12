@@ -1,0 +1,272 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: white;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: black;
+}
+/*navbar*/
+.navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: yellowgreen;
+    padding: 30px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 1000;
+
+}
+
+.logo a {
+    color:black;
+    font-size: 40px;
+    font-weight: bold;
+    text-decoration: none;
+    margin-left: 20px;
+}
+
+.nav-links {
+    list-style-type: none;
+    display: flex;
+}
+
+.nav-links li {
+    margin: 0 20px;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.nav-links li a {
+    color: black;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.nav-links li a:hover {
+    color: white;
+}
+.portfolio{
+    color: white
+}
+
+/* Home */
+.Zecharia {
+    margin-left: 16%;
+    margin-top: 25%;
+    color: white;
+    font-size: 150%;
+
+   }
+   p {
+    margin-left: 2%;
+
+   }
+   .imahe {
+    text-align: center;
+    height: 40%;
+    position: absolute;
+    left: 55%;
+    bottom: 0;
+    transform: translateX(-30%);
+    transform: translateY(13%);
+    transition: bottom 1s, left 1s;
+
+
+}
+.imahe img {
+    width: 500px;
+    height: 500px;
+    border-radius: 15px;
+}
+ /* About */
+#about {
+    padding: 80px 0;
+    color: white
+}
+img {
+    width: 30%
+}
+.row {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.about-col-1 {
+    flex-basis: 35%;
+}
+.about-col-1 img {
+    width: 100%;
+    border-radius: 15px;
+    height: 100%
+}
+.about-col-2 {
+    flex-basis: 60%
+}
+.sub-title {
+    font: 60px;
+    font-weight: 600;
+    color: white
+}
+.container {
+    margin-top: 400px;
+    margin-right: 150px;
+}
+  /* Hobbies */
+  .hobbies {
+    margin-left: 40%;
+    height: 90%;
+    font-size: 41px;
+    font-style: italic;
+    font-family: sans-serif;
+    color: white
+ }
+
+
+ .label {
+    font-family: sans-serif;
+    font-style: italic;
+    font-size: 40px;
+    color: white
+ }
+
+
+ .image-container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 13%;
+    margin-left: 10%;
+   margin-right: 30%;
+   margin-bottom: 25%;
+ }
+
+ .image {
+    text-align: center;
+    box-shadow: 10px 10px 10px grey;
+ }
+ 
+
+ .image img {
+    width: 90%;
+    height: auto;
+    margin-bottom: 20px;
+
+ }
+
+ .label {
+    text-align: center;
+ }
+ .container2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10%;
+  margin-right: 20%;
+  margin-bottom: 10%
+ }
+
+ .image-container2 {
+
+   text-align:center;
+
+ }
+ .image-label {
+   margin-top: 30px;
+   font-size: 30px;
+   font-style: italic;
+   color: white
+ }
+     /* Certificate */
+     .certificates {
+         margin-left: 40%;
+       font-size: 50px;
+       font-style: italic;
+       font-family: sans-serif;
+       color: white;
+       }
+       .image-container2 img {
+         width: 90%;
+         margin-left: 200px;
+       }
+
+       .container3 {
+         position: relative; 
+         width: 70%;
+         height: 20%;
+         background-image: url("https://www.facebook.com/photo/?fbid=968924798281967&set=a.119969149844207" ); /* Replace */
+         background-size: cover;
+         display: flex;
+         justify-content: center;
+         align-items: center;
+         margin-top: 10%;
+         margin-left: 8%;
+       }
+
+       .centered-text {
+         font-size: 60px;
+         text-align: center;
+         padding: 20px;
+         color: black; 
+         font-weight: bold;
+
+       }
+       /* Contact */
+       .contactp {
+          font-size: 30px;
+          margin-left: 10%;
+          margin-right: 10%;
+       }
+
+       .contacts {
+        width: 90%;
+        height: 30vh;
+        background: black;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        justify-content: center;
+        color: white;
+       }
+       h1  {
+        font-size: 45px;
+        margin-top: -100px;
+        margin-bottom: 50px;
+
+        color: white
+       }
+       .socialicons {
+        display: flex;
+       }
+       .socialicons a{
+       width: 80px;
+       height: 80px;
+       text-align: center;
+       text-decoration: none;
+       color: white;
+       box-shadow: 0 0 20px 10px rgba(255, 255, 255);
+       margin: 0 30px;
+       border-radius: 50%;
+       }
+       .socialicons a .fab {
+        font-size: 40px;
+        line-height: 80px;
+       }
+       .socialicons a:hover {
+        color: blue;
+       }
+
+       .paragraph {
+        margin-top: 2%;
+        text-align: center;
+        font-size: x-large;
+        margin-right: 18%;
+       }
+       span {
+         color: yellowgreen;
+       }
